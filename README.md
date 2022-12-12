@@ -1,13 +1,7 @@
-# Sample Hardhat Project
-
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+The app check if goerli network is connected before rendering the app
+if not, shows button to change -help the user- to change the network to goerli network
+Basic front-end.
+Functions:
+-Write message
+-Show message
+-Show array of messages
